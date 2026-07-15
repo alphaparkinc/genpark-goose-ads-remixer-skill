@@ -1,0 +1,27 @@
+{
+  "name": "genpark-goose-ads-remixer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Remix and adapt top performing ad copywriting formats.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "ads",
+    "remixer",
+    "copywriting"
+  ],
+  "inputs": {
+    "winning_copy_sample": {
+      "type": "string"
+    },
+    "target_channel": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "remixed_copy": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
